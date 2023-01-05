@@ -14,7 +14,7 @@
 <style scoped lang="scss">
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #1c1c1c;
   display: flex;
   justify-content: center;
