@@ -1,7 +1,7 @@
 <template>
   <section>
     <img src="/imgs/avatar.jpg" alt="">
-    <h1>Hey is me Zachary Masson</h1>
+    <h1>Hey it's me Zachary Masson</h1>
     <h3>My portfolio is coming soon 😉</h3>
   </section>
 </template>
