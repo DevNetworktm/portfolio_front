@@ -1,10 +1,11 @@
 <template>
   <section>
-    <img src="/imgs/avatar.jpg" alt="">
-    <h1>Hey it's me Zachary Masson</h1>
+    <img src="/imgs/avatar.jpg" alt="Avatar">
+    <h1>Hey it's me, Zachary Masson</h1>
     <h3>My portfolio is coming soon 😉</h3>
   </section>
 </template>
+
 <style scoped lang="scss">
 section {
   width: 100%;
