@@ -27,6 +27,7 @@ html {
 main {
   width: calc(100% + 40px);
   height: calc(100vh + 40px);
+  padding-top: 20px;
   transform: translate(-20px, -20px);
   filter: blur(0);
   -webkit-filter: blur(0);

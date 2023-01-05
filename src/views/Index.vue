@@ -14,7 +14,7 @@
 <style scoped lang="scss">
 #hero {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #1c1c1c;
   display: flex;
   justify-content: center;
@@ -37,9 +37,10 @@
 
     &>img.fond {
       position: absolute;
-      top: -20%;
+      top: 10px;
       left: 0;
       width: 100%;
+      height: 100%;
       opacity: 0.3;
       filter: blur(3px);
       -webkit-filter: blur(3px);
