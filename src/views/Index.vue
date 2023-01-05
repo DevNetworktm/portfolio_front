@@ -41,7 +41,7 @@
       left: 0;
       width: 100%;
       opacity: 0.3;
-      ilter: blur(3px);
+      filter: blur(3px);
       -webkit-filter: blur(3px);
     }
 
