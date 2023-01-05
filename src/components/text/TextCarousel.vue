@@ -29,7 +29,7 @@ onMounted(() => {
     else {
       Articles.value[ArticleActive.value].classList.add('animate__animated', 'animate__fadeOutUp');
       setTimeout(() => {
-        Carousel.value.scrollTo({top: Carousel.value.scrollTop + 200})
+        Carousel.value.scrollTo({top: Carousel.value.scrollTop + 200, behavior: 'smooth'})
         Articles.value[ArticleActive.value + 1].classList.add('animate__animated', 'animate__fadeInUp');
         ArticleActive.value = ArticleActive.value + 1
       }, 500)
