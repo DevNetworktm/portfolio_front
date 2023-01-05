@@ -1,3 +1,17 @@
+<script setup>
+import { ref } from "vue";
+
+import TextCarousel from "@/components/text/TextCarousel.vue";
+
+const Texts = ref(
+    [
+        "Hey it's me, Zachary Masson 💻.",
+        "My portfolio is coming soon 😉.",
+        "All you had to do was wait ⌛."
+    ]
+)
+</script>
+
 <template>
   <section id="hero">
     <article class="img">
@@ -5,8 +19,7 @@
       <img src="/imgs/avatar.jpg" alt="" class="avatar">
     </article>
     <article class="title">
-      <h1>Hey it's me, Zachary Masson</h1>
-      <h3>My portfolio is coming soon 😉</h3>
+      <TextCarousel :Texts="Texts"/>
     </article>
   </section>
 </template>
