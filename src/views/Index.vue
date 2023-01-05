@@ -8,7 +8,7 @@
 <style scoped lang="scss">
 section {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #181818;
   display: flex;
   justify-content: center;
