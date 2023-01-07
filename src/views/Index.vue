@@ -15,8 +15,8 @@ const Texts = ref(
 <template>
   <section id="hero">
     <article class="img">
-      <img src="/imgs/fond.jpg" alt="" class="fond">
-      <img src="/imgs/avatar.jpg" alt="" class="avatar">
+      <img src="@/assets/img/fond.jpg" alt="" class="fond">
+      <img src="@/assets/img/avatar.jpg" alt="" class="avatar">
     </article>
     <article class="title">
       <TextCarousel :Texts="Texts"/>
@@ -60,22 +60,30 @@ const Texts = ref(
     }
 
     &.title {
+      position: relative;
+
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       gap: 5px;
-      &>h1,h3 {
-        color: white;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background-image: url("@/assets/img/title_background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        opacity: 0.75;
       }
-      &>h3 {
-        font-weight: normal;
-      }
-      &>img {
-        width: 300px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-      }
+
     }
   }
 
